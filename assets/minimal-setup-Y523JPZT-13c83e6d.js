@@ -1,0 +1,1 @@
+import{O as t,Q as s,S as e,W as i,X as l,y as h,a4 as r,a6 as o,aa as y}from"./index-e4281068.js";var g=a=>[t(),s(),e(),i(l,{fallback:!0}),h.of([].concat(r,o,a.useTabs?[y]:[]))];export{g as default};
