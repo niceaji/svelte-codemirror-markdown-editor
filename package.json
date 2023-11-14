@@ -1,0 +1,29 @@
+{
+  "name": "svelte-codemirror-markdown-editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3001",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.55",
+    "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "@unocss/preset-icons": "^0.57.2",
+    "gh-pages": "^6.0.0",
+    "svelte": "^4.0.5",
+    "unocss": "^0.57.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@codemirror/lang-markdown": "^6.2.2",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "@neocodemirror/svelte": "^0.0.17",
+    "codemirror": "^6.0.1",
+    "marked": "^10.0.0",
+    "svelte-splitpanes": "^0.8.0"
+  }
+}
